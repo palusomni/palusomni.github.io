@@ -1,0 +1,30 @@
+baseURL: "https://palusomni.github.io"   # website root path
+disqusShortname: ""                      # disqus shortcode
+enableGitInfo: false                     # retrieve last modified date from git commits
+enableRobotsTXT: true                    # /robots.txt
+googleAnalytics: ""                      # google analytics id
+hasCJKLanguage: true                     # Chinese/Japanese/Korean
+languageCode: "ko-kr"                    # content language
+paginate: 5                              # number of posts each page
+rssLimit: 10                             # maximum items in rss feeds
+theme: ""                                # theme directory name
+title: "Palusomni blog."                 # website title
+
+menu:
+  main:
+    - identifier: culture
+      name: 문화
+      url: /culture/
+      weight: -100
+    - identifier: tech
+      name: 테크
+      url: /tech/
+      weight: 100
+    - identifier: design
+      name: 디자인
+      url: /design/
+      weight: 200
+
+taxonomies:
+  tag: tags
+  category: categories
